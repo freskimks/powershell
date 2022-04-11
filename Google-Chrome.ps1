@@ -1,0 +1,1 @@
+﻿New-AzVm -ResourceGroupName learn-d2a8d1e3-0259-4d64-a7ec-8348a719b240 -Name "testvm-eus-01" -Credential (Get-Credential) -Location "Canada East" -Image UbuntuLTS -OpenPorts 22 -PublicIpAddressName "testvm-01"
